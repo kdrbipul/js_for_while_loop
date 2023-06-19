@@ -15,3 +15,19 @@ while(i<=5){
     console.log("While loop: "+i);
     i++;
 }
+
+// do while loop
+
+
+let count1 = 1;
+do {
+    console.log("count: "+count1);
+    count1++;
+}while(count1<=5);
+
+
+let userInput;
+do {
+    userInput = prompt("Enter a number greater than 10,");
+}while(parseInt(userInput<=10));
+console.log("You entered a number greater than 10.");
