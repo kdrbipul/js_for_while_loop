@@ -46,5 +46,30 @@ for (let key in person){
     console.log(key + " : " + person[key]);
 }
 
+const arrayLike = {
+    1 : "Apple",
+    2 : "Banana",
+    3 : "Cherry",
+    length : 3,
+}
+for (let index in arrayLike){
+    console.log(arrayLike[index]);
+}
+
+
+
 
 //for ...in end
+
+
+//for .....of 
+
+const numbers = [1,2,3,4,5];
+for(let number of numbers){
+    console.log(number);
+}
+
+const message = "Hello";
+for (let character of message){
+    console.log(character);
+}
